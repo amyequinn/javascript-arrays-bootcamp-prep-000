@@ -6,5 +6,3 @@ var addElementToBeginningOfArray = [array];
 addElementToBeginningOfArray.unshift(element);
 return addElementToBeginningOfArray
 }
-
-  
