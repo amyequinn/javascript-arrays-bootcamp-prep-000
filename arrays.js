@@ -12,7 +12,7 @@ return addElementToBeginningOfArray
 
 function destructivelyAddElementToBeginningOfArray(){
   var destructivelyAddElementToBeginningOfArray = [1];
-  const destructivelyAddElementToBeginningOfArray.unshift("foo");
+  destructivelyAddElementToBeginningOfArray.unshift("foo");
   return destructivelyAddElementToBeginningOfArray
 
 }
