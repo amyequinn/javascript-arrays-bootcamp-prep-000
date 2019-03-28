@@ -8,8 +8,8 @@ return addElementToBeginningOfArray
 }
 
 function destructivelyAddElementToBeginningOfArray(){
-  const destructivelyAddElementToBeginningOfArray = [1];
-  const one = ["foo", ...destructivelyAddElementToBeginningOfArray];
-  return one
-
+  var addElementToBeginningOfArray=[1];
+  destructivelyAddElementToBeginningOfArray.unshift("foo");
+  return destructivelyAddElementToBeginningOfArray
 }
+  
